@@ -1,0 +1,9 @@
+**Problems Faced and Resolutions**
+
+1. Initially, GCC was not recognized in the terminal.
+2. This happened because MinGW-w64 was not properly configured in the system PATH.
+3. I resolved this by adding the MinGW-w64 bin directory to the PATH environment variable.
+4. I installed and configured the C/C++ extension in Visual Studio Code.
+5. I verified the installation using the `gcc --version` command.
+6. I created a `hello.c` file and compiled it using GCC.
+7. Finally, I successfully executed the program and obtained the output "Hello, World!".
